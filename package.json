@@ -1,8 +1,8 @@
 {
   "name": "shintech-config",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "get conifg",
-  "main": "build/index.js",
+  "main": "index.js",
   "repository": "https://github.com:/shintech/shintech-config",
   "author": "Michael Prather",
   "license": "MIT",
