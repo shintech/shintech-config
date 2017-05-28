@@ -14,7 +14,6 @@ export default class Config {
       default:
         throw (new Error('Unknown environment: ' + window.location.hostname))
     }
-    console.log(env, key)
 
     return this.file[env][key]
   }
