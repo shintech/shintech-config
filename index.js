@@ -1,4 +1,4 @@
-export default function Config (file) {
+function Config (file) {
   this.file = file
 }
 
@@ -19,3 +19,5 @@ Config.prototype.getConfig = function (key) {
 }
 
 Config.prototype.constructor = Config
+
+module.exports = Config
