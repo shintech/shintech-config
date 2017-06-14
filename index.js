@@ -11,6 +11,9 @@ Config.prototype.getConfig = function (key) {
     case 'shintech.ninja':
       env = 'development'
       break
+    case 'localhost':
+      env = 'development'
+      break
     default:
       throw (new Error('Unknown environment: ' + window.location.hostname))
   }
