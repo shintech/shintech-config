@@ -5,10 +5,10 @@ function Config (file) {
 Config.prototype.getConfig = function (key) {
   var env
   switch (window.location.hostname) {
-    case 'prod.shintech.ninja':
+    case 'shintech.ninja':
       env = 'production'
       break
-    case 'shintech.ninja':
+    case 'dev.shintech.ninja':
       env = 'development'
       break
     case 'localhost':
